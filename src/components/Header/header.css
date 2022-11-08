@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 30%;
+    text-align: center;
+}
+
+.logo-title {
+    margin-top: 10px;
+}
+
+.logo-title h3 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 800;
+    color: white;
+
+}
+
+.arrow {
+
+    animation: movedown 3.5s infinite;
+    /* animation: moveup 1s; */
+}
+
+@keyframes movedown {
+    /* from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: 20px;
+    } */
+
+
+    0% {
+        margin-top: 0px;
+
+    }
+
+    25% {
+        margin-top: 20px;
+    }
+
+    50% {
+        margin-top: 0px;
+
+    }
+
+    75% {
+        margin-top: 20px;
+
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes moveup {
+    from {
+        margin-top: 20px;
+    }
+
+    to {
+        margin-top: 0px;
+    }
+}
