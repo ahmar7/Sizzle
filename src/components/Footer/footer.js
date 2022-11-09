@@ -10,13 +10,11 @@ const Footer = () => {
             <img src={Logo} alt="" />
             <ul className="footer-links">
               <li>
-                <a href="">About us</a>
-              </li>
-              <li>
-                <a href="">Contact us</a>
-              </li>
-              <li>
-                <a href="">Apply</a>
+                <div className="copy-right">
+                  <div className="right-bar">
+                    <button>Apply</button>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -44,7 +42,7 @@ const Footer = () => {
         </div>
         <div className="copy-right">
           <a href="" className="lef">
-            TERMS OF SERVICES
+            TERMS OF SERVICE
           </a>
           <a href="">PRIVACY POLICY</a>
         </div>
