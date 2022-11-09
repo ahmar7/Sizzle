@@ -35,6 +35,10 @@ p, h1, h2, h3, h4, h5 {
 
     animation: movedown 3.5s infinite;
     /* animation: moveup 1s; */
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
 }
 
 @keyframes movedown {
