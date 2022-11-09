@@ -84,3 +84,31 @@ p, h1, h2, h3, h4, h5 {
         margin-top: 0px;
     }
 }
+
+@media (max-width:1224px) {
+    .logo img {
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+
+    .logo img {
+        width: 220px;
+        text-align: center;
+    }
+
+    .logo-title h3 {
+        font-family: 'Public Sans', sans-serif;
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 5px;
+    }
+
+    .br {
+        display: none;
+    }
+}

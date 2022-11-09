@@ -12,7 +12,7 @@ const Header = () => {
           FORGED BY COMMUNITY.
           <br /> BUILT TO DELIVER.
         </h3>
-        <br />
+        <br className="br" />
         <div className="arrow">
           <img src={Arrow} alt="" />
         </div>

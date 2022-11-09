@@ -117,3 +117,116 @@
 
 
 }
+
+@media (max-width:1366px) {
+    .individiual {
+        box-sizing: border-box;
+        padding: 10px 25px 40px 25px;
+        width: 32%;
+        min-height: 466px;
+
+    }
+
+    .mt {
+        margin-top: 70px;
+        min-height: 550px !important;
+    }
+
+    .cards-section {
+        background: linear-gradient(90deg, rgba(223, 51, 11, 1) 8%, rgba(251, 110, 34, 1) 56%);
+        height: 900px;
+    }
+
+    .cards {
+        margin-top: 50px;
+        background-color: white;
+        height: 1300px;
+    }
+}
+
+@media (max-width:930px) {
+    .detail-card p {
+        margin-top: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: 17px;
+    }
+
+    .title h1 {
+        font-size: 26px;
+    }
+
+    .individiual {
+        box-sizing: border-box;
+        padding: 10px 10px 20px 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .individiual {
+        box-sizing: border-box;
+        padding: 10px 25px 40px 25px;
+        width: 48%;
+
+    }
+
+    .cards {
+        height: auto;
+    }
+
+    .cards-section {
+        background: linear-gradient(90deg, rgba(223, 51, 11, 1) 8%, rgba(251, 110, 34, 1) 56%);
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .apply-sec {
+        padding-top: 28px;
+        background-color: white;
+        padding-bottom: 20px;
+    }
+
+    .individiual {
+        margin-top: 50px !important;
+
+        min-height: 450px;
+
+    }
+
+    .mt {
+        margin-top: 0px;
+        min-height: 450px !important;
+    }
+}
+
+@media (max-width:600px) {
+    .individiual {
+        box-sizing: border-box;
+        padding: 10px 25px 40px 25px;
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .indiv-card {
+
+        margin-top: 25px !important;
+
+    }
+}
+
+@media (max-width:500px) {
+
+    .cards-section .card-high {
+        padding-top: 20px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width:400px) {
+    .individiual {
+        box-sizing: border-box;
+        padding: 10px 25px 40px 25px;
+        width: 96%;
+    }
+}
