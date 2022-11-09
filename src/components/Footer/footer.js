@@ -23,6 +23,9 @@ const Footer = () => {
         </div>
         <div className="right-block">
           <div className="footer-bold">
+            <div className="mbl-logo">
+              <img src={Logo} alt="" />
+            </div>
             <h1>
               FORGED BY COMMUNITY.
               <span className="bold-below">BUILT TO DELIVER.</span>
@@ -40,7 +43,9 @@ const Footer = () => {
           <p> &#169; sizzle 2022</p>
         </div>
         <div className="copy-right">
-          <a href="">TERMS OF SERVICES</a>
+          <a href="" className="lef">
+            TERMS OF SERVICES
+          </a>
           <a href="">PRIVACY POLICY</a>
         </div>
       </div>

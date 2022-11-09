@@ -112,6 +112,10 @@
     padding: 10px 10px;
 }
 
+.mbl-logo {
+    display: none;
+}
+
 @media (max-width:768px) {
     .footer-section {
         padding: 50px 20px;
@@ -123,7 +127,27 @@
     .footer-block {
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .mbl-logo {
+        display: block;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .footer-section {
+        padding: 20px 20px 30px 20px;
+    }
+
+    .mbl-logo img {
+
+        width: 180px;
+
+    }
+
+    .footer-logo img {
+        display: none;
     }
 
     .right-block {
@@ -136,9 +160,46 @@
     }
 
     .copyright {
-        margin-top: 50px;
+        margin-top: 12px;
         border-top: 2px solid #fb6022;
         display: flex;
         flex-direction: column;
+        text-align: left;
+    }
+
+    .footer-bold h1 {
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: left;
+        color: white;
+    }
+
+    .footer-input input {
+        padding: 15px 10px;
+        border-radius: 4px;
+    }
+
+    .inputarrow {
+        width: 34px;
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 6px;
+    }
+
+    .footer-links li a {
+        color: #d1d1d1;
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    .copy-left p {
+        margin-left: 0;
+    }
+
+    .lef {
+        margin-left: 0 !important;
     }
 }
