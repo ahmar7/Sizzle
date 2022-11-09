@@ -121,7 +121,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="apply-sec">
-        <button>Apply</button>
+        <button>APPLY</button>
         <p>See if you are qualified</p>
       </div>
     </>

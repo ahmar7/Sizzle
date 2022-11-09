@@ -61,7 +61,7 @@ const Faq = () => {
         </div>
         <div className="faq-slide" onClick={showslide2}>
           <h1>Does it cost money to start?</h1>
-          <img src={ArrowFaq} className={show1 ? "rotate" : ""} alt="" />
+          <img src={ArrowFaq} className={show2 ? "rotate" : ""} alt="" />
         </div>
         <div className={show2 ? " faq-detail" : "show-it "}>
           <p>
@@ -73,7 +73,7 @@ const Faq = () => {
         </div>
         <div className="faq-slide" onClick={showslide3}>
           <h1>Does it cost money to start?</h1>
-          <img src={ArrowFaq} className={show1 ? "rotate" : ""} alt="" />
+          <img src={ArrowFaq} className={show3 ? "rotate" : ""} alt="" />
         </div>
         <div className={show3 ? " faq-detail" : "show-it "}>
           <p>
@@ -85,7 +85,7 @@ const Faq = () => {
         </div>
         <div className="faq-slide" onClick={showslide4}>
           <h1>Does it cost money to start?</h1>
-          <img src={ArrowFaq} className={show1 ? "rotate" : ""} alt="" />
+          <img src={ArrowFaq} className={show4 ? "rotate" : ""} alt="" />
         </div>
         <div className={show4 ? " faq-detail" : "show-it "}>
           <p>
@@ -97,7 +97,7 @@ const Faq = () => {
         </div>
         <div className="faq-slide" onClick={showslide5}>
           <h1>Does it cost money to start?</h1>
-          <img src={ArrowFaq} className={show1 ? "rotate" : ""} alt="" />
+          <img src={ArrowFaq} className={show5 ? "rotate" : ""} alt="" />
         </div>
         <div className={show5 ? " faq-detail" : "show-it "}>
           <p>

@@ -9,12 +9,17 @@ p, h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
-.logo {
-    margin-top: 20px;
+.main-header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+
 .logo img {
-    width: 30%;
+    width: 100%;
     text-align: center;
 }
 
@@ -24,7 +29,7 @@ p, h1, h2, h3, h4, h5 {
 
 .logo-title h3 {
     font-family: 'Public Sans', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 27px;
     font-weight: 800;
     color: white;
@@ -86,18 +91,23 @@ p, h1, h2, h3, h4, h5 {
 }
 
 @media (max-width:1224px) {
-    .logo img {
+    /* .logo img {
         width: 400px;
         text-align: center;
-    }
+    } */
 }
 
 @media (max-width:500px) {
+    .logo img {
+        width: 97%;
+        text-align: center;
+    }
 
+    /* 
     .logo img {
         width: 220px;
         text-align: center;
-    }
+    } */
 
     .logo-title h3 {
         font-family: 'Public Sans', sans-serif;

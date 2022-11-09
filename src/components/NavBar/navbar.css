@@ -27,14 +27,14 @@
 
 .right-bar button {
     font-family: 'Public Sans', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     cursor: pointer;
     text-decoration: none;
     line-height: 27px;
     font-weight: 800;
     border: none;
     color: white;
-    padding: 5px 8px;
+    padding: 5px 15px;
     border-radius: 20px;
     background: linear-gradient(90deg, rgba(223, 51, 11, 1) 0%, rgba(251, 96, 34, 1) 52%);
 }
@@ -102,6 +102,7 @@
     }
 
     .right-bar button {
-        font-size: 15px;
+        font-size: 17px;
     }
+
 }
