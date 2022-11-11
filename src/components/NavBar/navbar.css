@@ -25,16 +25,25 @@
     align-items: center;
 }
 
+.right-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .right-bar button {
     font-family: 'Public Sans', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     cursor: pointer;
     text-decoration: none;
     line-height: 27px;
     font-weight: 800;
     border: none;
     color: white;
-    padding: 5px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 8px 20px;
     border-radius: 20px;
     background: linear-gradient(90deg, rgba(223, 51, 11, 1) 0%, rgba(251, 96, 34, 1) 52%);
 }
@@ -44,11 +53,10 @@
 }
 
 .detail h1 {
-    background: -webkit-linear-gradient(#ff927a, #ff8e61);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+
     font-weight: 600;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .below-detail {
@@ -81,7 +89,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-weight: 600;
-        font-size: 19px;
+        font-size: 30px;
     }
 
     .navbar {
