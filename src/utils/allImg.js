@@ -7,7 +7,10 @@ import Card4 from "../assets/img/card4.png";
 import Card5 from "../assets/img/card5.png";
 import Card6 from "../assets/img/card6.png";
 import ArrowFaq from "../assets/img/arrow-faq.png";
-import Inputarrow from "../assets/img//input-arrow.png";
+import Inputarrow from "../assets/img/input-arrow.png";
+import Tech1 from "../assets/img/1.png";
+import Tech2 from "../assets/img/2.png";
+import Animate from "../assets/img/animate.mp4";
 
 export {
   Logo,
@@ -20,4 +23,7 @@ export {
   Card6,
   ArrowFaq,
   Inputarrow,
+  Tech1,
+  Tech2,
+  Animate,
 };
