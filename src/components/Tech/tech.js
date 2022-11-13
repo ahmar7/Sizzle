@@ -1,5 +1,5 @@
 import React from "react";
-import { Animate, Tech1 } from "../../utils/allImg";
+import { Animate, Tech1, Tech2 } from "../../utils/allImg";
 import "./tech.css";
 const Tech = () => {
   return (
@@ -32,7 +32,7 @@ const Tech = () => {
           </p>
         </div>
         <div className="indiv-tech">
-          <img src={Tech1} alt="" />
+          <img src={Tech2} alt="" />
           <h3 className="indiv-h">EASY TO MANAGE</h3>
           <p className="indiv-p">
             OUR SOPHISTICATED YET SIMPLE INTERFACE GIVES YOU THE ABILITY TO
