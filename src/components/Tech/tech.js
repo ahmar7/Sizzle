@@ -32,7 +32,7 @@ const Tech = () => {
           </p>
         </div>
         <div className="indiv-tech">
-          <img src={Tech2} alt="" />
+          <img className="sec-img" src={Tech2} alt="" />
           <h3 className="indiv-h">EASY TO MANAGE</h3>
           <p className="indiv-p">
             OUR SOPHISTICATED YET SIMPLE INTERFACE GIVES YOU THE ABILITY TO
