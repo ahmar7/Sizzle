@@ -1,6 +1,10 @@
 .tech-section {
     background-color: black;
-    padding: 70px 30px 30px 30px;
+    padding: 70px 30px 70px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 
 }
 
@@ -21,7 +25,7 @@
 .tech-para {
     margin-top: 10px;
     color: #cdcdcf;
-    width: 480px;
+    width: 430px;
     font-weight: 500;
     text-align: left;
 }
@@ -89,6 +93,39 @@
     width: 500px;
 }
 
+.left-inner {
+    border-left: 1px solid #fc7318;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    width: 45%;
+    margin: 20px 0;
+}
+
+.right-tech {
+    display: flex;
+    flex-direction: row;
+
+    width: 60%;
+    margin-left: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-inner h3 {
+    color: #fc7318;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.left-inner p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: white;
+    /* width: 310px; */
+}
+
 @media (max-width:1080px) {
     .animation {
         position: absolute;
@@ -97,9 +134,43 @@
         width: 300px;
     }
 
+    .tech-section {
+        background-color: black;
+        padding: 50px 30px 50px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-para {
+        margin-top: 10px;
+        color: #cdcdcf;
+        width: 90vw;
+    }
+
+    .right-tech {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .left-inner {
+        border-left: 1px solid #fc7318;
+        text-align: left;
+        padding-left: 15px;
+        padding-bottom: 0px;
+
+    }
 }
 
+
 @media (max-width:768px) {
+    .tech-section {
+        background-color: black;
+        padding: 50px 15px 50px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .animation {
         display: none;
     }
@@ -136,6 +207,12 @@
 }
 
 @media (max-width:500px) {
+
+
+    .left-inner {
+        width: auto;
+    }
+
     .tech-para {
         margin-top: 10px;
         color: #cdcdcf;
@@ -151,5 +228,12 @@
 
     .heading-tech, .tech-h, .tech-para {
         padding: 0 15px;
+    }
+
+    .right-tech {
+        flex-direction: column;
+        width: 91%;
+        /* margin-left: 20px; */
+        margin: 0 auto;
     }
 }
