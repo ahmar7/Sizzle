@@ -11,12 +11,13 @@
 .heading-tech {
     font-family: 'Public Sans', sans-serif;
     color: #fc7318;
-    font-size: 20px;
+    font-size: 24px;
     text-align: left;
 }
 
 .tech-h {
     margin-top: 10px;
+    font-size: 35px;
     color: white;
     font-family: 'Public Sans', sans-serif;
     text-align: left;
@@ -25,6 +26,7 @@
 .tech-para {
     margin-top: 10px;
     color: #cdcdcf;
+    font-size: 19px;
     width: 430px;
     font-weight: 500;
     text-align: left;
@@ -214,6 +216,7 @@
     }
 
     .tech-para {
+        font-size: 17px;
         margin-top: 10px;
         color: #cdcdcf;
         width: auto;
