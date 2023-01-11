@@ -28,20 +28,20 @@ const Faq = () => {
       setshow3(false);
     }
   };
-  let showslide4 = () => {
-    if (show4 === false) {
-      setshow4(true);
-    } else {
-      setshow4(false);
-    }
-  };
-  let showslide5 = () => {
-    if (show5 === false) {
-      setshow5(true);
-    } else {
-      setshow5(false);
-    }
-  };
+  // let showslide4 = () => {
+  //   if (show4 === false) {
+  //     setshow4(true);
+  //   } else {
+  //     setshow4(false);
+  //   }
+  // };
+  // let showslide5 = () => {
+  //   if (show5 === false) {
+  //     setshow5(true);
+  //   } else {
+  //     setshow5(false);
+  //   }
+  // };
   return (
     <div className="faq-section">
       <div className="inner-faq">
@@ -53,59 +53,24 @@ const Faq = () => {
         </div>
         <div className={show1 ? " faq-detail" : "show-it "}>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            atque ab quasi, debitis accusamus veniam sit magni excepturi id in.
-            Amet quibusdam recusandae eum sequi rerum! Provident officiis
-            obcaecati iure.
+            No, there are no startup costs. Sizzle covers all food costs. You
+            just need to follow the streamlined training program we’ve developed
+            to make sure food is cooked to Sizzle standards.
           </p>
         </div>
         <div className="faq-slide" onClick={showslide2}>
-          <h1>Does it cost money to start?</h1>
+          <h1>How do I get paid?</h1>
           <img src={ArrowFaq} className={show2 ? "rotate" : ""} alt="" />
         </div>
         <div className={show2 ? " faq-detail" : "show-it "}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            atque ab quasi, debitis accusamus veniam sit magni excepturi id in.
-            Amet quibusdam recusandae eum sequi rerum! Provident officiis
-            obcaecati iure.
-          </p>
+          <p>You will be paid weekly via direct deposit</p>
         </div>
         <div className="faq-slide" onClick={showslide3}>
-          <h1>Does it cost money to start?</h1>
+          <h1>What if I can't handle the orders?</h1>
           <img src={ArrowFaq} className={show3 ? "rotate" : ""} alt="" />
         </div>
         <div className={show3 ? " faq-detail" : "show-it "}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            atque ab quasi, debitis accusamus veniam sit magni excepturi id in.
-            Amet quibusdam recusandae eum sequi rerum! Provident officiis
-            obcaecati iure.
-          </p>
-        </div>
-        <div className="faq-slide" onClick={showslide4}>
-          <h1>Does it cost money to start?</h1>
-          <img src={ArrowFaq} className={show4 ? "rotate" : ""} alt="" />
-        </div>
-        <div className={show4 ? " faq-detail" : "show-it "}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            atque ab quasi, debitis accusamus veniam sit magni excepturi id in.
-            Amet quibusdam recusandae eum sequi rerum! Provident officiis
-            obcaecati iure.
-          </p>
-        </div>
-        <div className="faq-slide" onClick={showslide5}>
-          <h1>Does it cost money to start?</h1>
-          <img src={ArrowFaq} className={show5 ? "rotate" : ""} alt="" />
-        </div>
-        <div className={show5 ? " faq-detail" : "show-it "}>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-            atque ab quasi, debitis accusamus veniam sit magni excepturi id in.
-            Amet quibusdam recusandae eum sequi rerum! Provident officiis
-            obcaecati iure.
-          </p>
+          <p>You can turn our brands on and off based on your capacity.</p>
         </div>
       </div>
     </div>

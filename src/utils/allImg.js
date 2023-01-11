@@ -1,4 +1,5 @@
 import Logo from "../assets/img/logo.png";
+import newLogo from "../assets/img/newlogo.png";
 import Arrow from "../assets/img/arrow.png";
 import Card1 from "../assets/img/card1.png";
 import Card2 from "../assets/img/card2.png";
@@ -11,8 +12,8 @@ import Inputarrow from "../assets/img/input-arrow.png";
 import Tech1 from "../assets/img/1.png";
 import Tech2 from "../assets/img/2.png";
 import Animate from "../assets/img/animate.mp4";
-
 export {
+  newLogo,
   Logo,
   Arrow,
   Card1,
