@@ -1,5 +1,5 @@
 import Logo from "../assets/img/logo.png";
-import newLogo from "../assets/img/newlogo.png";
+import newLogo from "../assets/img/newlogobg.png";
 import Arrow from "../assets/img/arrow.png";
 import Card1 from "../assets/img/card1.png";
 import Card2 from "../assets/img/card2.png";

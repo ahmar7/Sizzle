@@ -72,7 +72,8 @@
 }
 
 .new-img {
-    width: 80%;
+    width: 85%;
+    margin-top: 20px;
 }
 
 @media (max-width:650px) {
