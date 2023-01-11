@@ -28,13 +28,13 @@ const Faq = () => {
       setshow3(false);
     }
   };
-  // let showslide4 = () => {
-  //   if (show4 === false) {
-  //     setshow4(true);
-  //   } else {
-  //     setshow4(false);
-  //   }
-  // };
+  let showslide4 = () => {
+    if (show4 === false) {
+      setshow4(true);
+    } else {
+      setshow4(false);
+    }
+  };
   // let showslide5 = () => {
   //   if (show5 === false) {
   //     setshow5(true);
@@ -71,6 +71,16 @@ const Faq = () => {
         </div>
         <div className={show3 ? " faq-detail" : "show-it "}>
           <p>You can turn our brands on and off based on your capacity.</p>
+        </div>
+        <div className="faq-slide" onClick={showslide4}>
+          <h1>How long does it take to get started?</h1>
+          <img src={ArrowFaq} className={show4 ? "rotate" : ""} alt="" />
+        </div>
+        <div className={show4 ? " faq-detail" : "show-it "}>
+          <p>
+            It will take 1-2 weeks to get fully onboarded and ready to start
+            fulfilling orders.
+          </p>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo } from "../../utils/allImg";
+import { Logo, newLogo } from "../../utils/allImg";
 import "./navbar.css";
 const Navbar = () => {
   return (
@@ -17,7 +17,10 @@ const Navbar = () => {
           <span className="below-detail">YOUR RESTAURANT BUSINESS</span>{" "}
         </h1>
       </div>
-      <div className="bx"></div>
+      <div>
+        {" "}
+        <img className="new-img" src={newLogo} alt="" />
+      </div>
     </>
   );
 };
