@@ -89,6 +89,10 @@
     .faq-slide img {
         width: 40px;
     }
+
+    .faq-slide {
+        text-align: left;
+    }
 }
 
 @media (max-width:500px) {

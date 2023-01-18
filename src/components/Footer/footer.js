@@ -11,9 +11,11 @@ const Footer = () => {
             <ul className="footer-links">
               <li>
                 <div className="copy-right">
-                  <div className="right-bar">
-                    <button>Apply</button>
-                  </div>
+                  <a href="https://forms.gle/i2zMvPnK8iAAR1A9A" target="_blank">
+                    <div className="right-bar">
+                      <button>Apply</button>
+                    </div>
+                  </a>
                 </div>
               </li>
             </ul>

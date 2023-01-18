@@ -121,7 +121,9 @@ const Cards = () => {
         </div>
       </div>
       <div className="apply-sec">
-        <button>APPLY</button>
+        <a href="https://forms.gle/i2zMvPnK8iAAR1A9A" target="_blank">
+          <button>APPLY</button>
+        </a>
         <p>See if you are qualified</p>
       </div>
     </>
