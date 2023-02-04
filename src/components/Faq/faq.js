@@ -53,9 +53,9 @@ const Faq = () => {
         </div>
         <div className={show1 ? " faq-detail" : "show-it "}>
           <p>
-            No, there are no startup costs. Sizzle covers all food costs. You
-            just need to follow the streamlined training program we’ve developed
-            to make sure food is cooked to Sizzle standards.
+            No, there are no startup costs. You just need to follow the
+            streamlined training program we’ve developed to make sure food is
+            cooked to Sizzle standards.
           </p>
         </div>
         <div className="faq-slide" onClick={showslide2}>

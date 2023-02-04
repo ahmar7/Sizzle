@@ -87,14 +87,14 @@ const Cards = () => {
               </div>
               <div className="title">
                 <h1>
-                  WE DELIVER & PAY
-                  <span className="b-title"> FOR THE FOOD</span>
+                  NO UPFRONT
+                  <span className="b-title">FEES</span>
                 </h1>
               </div>
               <div className="detail-card">
-                <p>
-                  WE SEND THE FOOD DIRECTLY TO YOUR RESTAURANT & WE COVER ALL
-                  UPFRONT COSTS. OUR GOAL IS TO MAKE YOU MONEY.
+                <p style={{ textTransform: "uppercase" }}>
+                  Start with ease and peace of mind, as we cover all the initial
+                  expenses, demonstrating our commitment to your success.
                 </p>
               </div>
             </div>
@@ -105,15 +105,14 @@ const Cards = () => {
               </div>
               <div className="title">
                 <h1>
-                  WATCH YOUR
-                  <span className="b-title"> MARGINS GROW</span>
+                  MAXIMIZE YOUR
+                  <span className="b-title">EARNINGS</span>
                 </h1>
               </div>
               <div className="detail-card">
-                <p>
-                  USE YOUR EXISTING STAFF & KITCHEN TO RECEIVE A WEEKLY CHECK
-                  IMPROVING MARGINS DRASTICALLY. IF YOU DON'T SUCCEED, NEITHER
-                  DO WE.
+                <p style={{ textTransform: "uppercase" }}>
+                  Turn every dollar into a profit with a potential return of 30%
+                  or more, all of which goes directly to you. It's that simple.
                 </p>
               </div>
             </div>

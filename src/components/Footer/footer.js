@@ -8,6 +8,9 @@ const Footer = () => {
         <div className="left-block">
           <div className="footer-logo">
             <img src={Logo} alt="" />
+            <h4 className="budd" style={{ color: "white" }}>
+              support@startsizzle.com
+            </h4>
             <ul className="footer-links">
               <li>
                 <div className="copy-right">
@@ -25,6 +28,7 @@ const Footer = () => {
           <div className="footer-bold">
             <div className="mbl-logo">
               <img src={Logo} alt="" />
+              <h4 style={{ color: "white" }}>support@startsizzle.com</h4>
             </div>
             <h1>
               FORGED BY COMMUNITY.
