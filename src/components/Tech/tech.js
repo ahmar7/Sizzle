@@ -5,48 +5,51 @@ const Tech = () => {
   return (
     <div className="tech-section">
       <div className="left-tech">
-        <p className="heading-tech">ADVANCED - TECH </p>
+        <p className="heading-tech">WE MAKE IT EASY FOR YOU</p>
         <h1 className="tech-h">
-          OUR PLATFORM MADE <br /> SIMPLE & EASY FOR YOU
+          LET US MANAGE THE
+          <br /> DETAILS
         </h1>
         <p className="tech-para">
-          WE CREATED THE TECHNOLOGY TO ALLOW YOU TO CONCENTRATE ON WHAT YOU DO
-          BEST: COOKING AMAZING FOOD & PROVIDING AMAZING SERVICE. OUR PLATFORM
-          MAKES EVERYTHING EASY & EFFICIENT, SO YOU CAN CONTINUE TO RAISE YOUR
-          MARGINS.
+          DON'T LET THE STRESS OF SMALL DETAILS HOLD YOU BACK. LET US HELP YOU
+          REALIZE YOUR FULL POTENTIAL BY MANAGING THE LITTLE THINGS. OUR
+          TAILORED SOLUTIONS AND UNWAVERING COMMITMENT ENSURE THAT YOUR JOURNEY
+          TO SUCCESS IS SMOOTH AND HASSLE-FREE.
         </p>
       </div>
       <div className="right-tech">
         <div className="left-inner no-mar">
-          <h3>RESULT - ORIENTED</h3>
+          <h3>ORGANIC REACH</h3>
           <p>
-            KEEP TRACK OF <span className="orange">YOUR RESTAURANT </span>{" "}
-            INCLUDING PROFIT, REVENUE & MORE. ALSO GET EASY ACCESS TO LAUNCH
-            MORE SIZZLE BRANDS
+            WE LEVERAGE CELEBRITIES AUDIENCES TO REACH MILLIONS OF FANS ACROSS
+            THE GLOBE TO <span className="orange"> GROW OUR BRANDS </span>{" "}
+            NATIONALLY, ALL IN THE MATTER OF CLICKS.
           </p>
         </div>
         <div className="left-inner">
-          <h3>TRAINING PROGRAM</h3>
+          <h3>PROVEN MARKETING</h3>
           <p>
-            OUR STATE-OF-THE-ART TRAINING PROGRAM WILL PROVIDE YOU &
-            <span className="orange">YOUR STAFF</span>A SEAMLESS EXPERIENCE WHEN
-            LEARNING HOW TO COOK OUR RECIPES
+            WE ELEVATE ONLINE VISIBILITY WITH OUR MARKETING TEAM'S{" "}
+            <span className="orange">EXPERTISE </span> IN NATIONAL MARKETING,
+            SOCIAL MEDIA PLANNING, SALES PROMOTION TACTICS, PUBLIC RELATIONS,
+            AND ADVERTISING CAMPAIGNS.
           </p>
         </div>
         <div className="left-inner ">
-          <h3>PAYOUT SYSTEM</h3>
+          <h3>MENU MANAGEMENT</h3>
           <p>
-            AN AUTOMATED SYSTEM THAT ALLOWS YOU TO NOT WORRY ABOUT
-            <span className="orange">YOUR CASH FLOW</span>. WE ARE JUST HERE TO
-            INCREASE YOUR TOP LINE
+            WE HANDLE EVERYTHING MENU-RELATED, INCLUDING THE ADDITION OF NEW
+            ITEMS TO <span className="orange">KEEP GUESTS RETURNING</span> FOR
+            MORE.
           </p>
         </div>
         <div className="left-inner">
-          <h3>EASY TO MANAGE</h3>
+          <h3>KEEP GUESTS RETURNING</h3>
           <p>
-            OUR SOPHISTICATED YET SIMPLE INTERFACE GIVES YOU THE ABILITY TO
-            MANAGE <span className="orange">YOUR VIRTUAL BRAND</span> RIGHT FROM
-            YOUR TABLET THAT WE PROVIDE TO YOU. EVERYTHING YOU NEED IN ONE PLACE
+            FROM LOCATING THE IDEAL VIRTUAL RESTAURANT FOR YOUR KITCHEN TO
+            OFFERING SUPPORT THROUGHOUT THE PROCESS, OUR{" "}
+            <span className="orange">TOP-NOTCH</span> CUSTOMER SERVICE IS HERE
+            FOR YOU.
           </p>
         </div>
       </div>
