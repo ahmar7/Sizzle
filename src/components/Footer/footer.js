@@ -40,11 +40,11 @@ const Footer = () => {
               FORGED BY COMMUNITY.
               <span className="bold-below">BUILT TO DELIVER.</span>
             </h1>
-            <p>Subscribe for updates</p>
+            {/* <p>Subscribe for updates</p>
             <div className="footer-input">
               <input type="text" placeholder="ENTER YOUR EMAIL" />
               <img className="inputarrow" src={Inputarrow} alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
