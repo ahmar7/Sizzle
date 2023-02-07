@@ -5,6 +5,7 @@ import Header from "./Header/header";
 import Cards from "./HowItWorks/cards";
 import Navbar from "./NavBar/navbar";
 import Tech from "./Tech/tech";
+import Boost from "./Boost/boost";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Header />
       <Navbar />
       <Cards />
+      <Boost />
       <Tech />
       <Faq />
       <Footer />
