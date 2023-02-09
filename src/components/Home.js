@@ -12,8 +12,8 @@ const Home = () => {
     <div>
       <Header />
       <Navbar />
-      <Cards />
       <Boost />
+      <Cards />
       <Tech />
       <Faq />
       <Footer />

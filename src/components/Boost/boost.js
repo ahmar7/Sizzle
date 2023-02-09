@@ -2,7 +2,7 @@ import React from "react";
 import "./boost.css";
 const boost = () => {
   return (
-    <div className="tech-section">
+    <div className="tech-section bosst-main">
       {/* <div className="left-tech">
         <p className="heading-tech">WE MAKE IT EASY FOR YOU</p>
         <h1 className="tech-h">
@@ -34,7 +34,7 @@ const boost = () => {
         </div>
       </div>
       <div className="left-tech paie">
-        <p className="heading-tech">BOOST YOUR KITCHEN'S POTENTIAL</p>
+        <p className="heading-tech small">BOOST YOUR KITCHEN'S POTENTIAL</p>
         <h1 className="tech-h">
           PROFIT-DRIVING SOLUTION <br /> FOR YOUR KITCHEN
         </h1>

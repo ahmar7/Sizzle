@@ -18,10 +18,28 @@
 
 }
 
+.small {
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+.paie .tech-h, .paie .tech-para {
+    text-align: center;
+}
+
 @media (max-width:1300px) {
     .right-to {
         margin-right: 30px !important;
 
+    }
+}
+
+@media (min-width:1080px) {
+
+    .bosst-main .left-inner p,
+    .bosst-main .left-inner h3 {
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
