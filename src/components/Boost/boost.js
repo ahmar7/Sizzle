@@ -16,6 +16,17 @@ const boost = () => {
           TO SUCCESS IS SMOOTH AND HASSLE-FREE.
         </p>
       </div> */}
+      <div className="left-tech paie mbl">
+        <p className="heading-tech small">BOOST YOUR KITCHEN'S POTENTIAL</p>
+        <h1 className="tech-h">
+          PROFIT-DRIVING SOLUTION <br /> FOR YOUR KITCHEN
+        </h1>
+        <p className="tech-para">
+          ALL YOU HAVE TO DO IS COOK OUR BRAND'S FOOD TO BECOME A
+          REVENUE-GENERATING POWERHOUSE WITH OUR SIMPLE AND SEAMLESS SOLUTION
+          THAT WON'T DISRUPT YOUR DAY-TO-DAY OPERATIONS.
+        </p>
+      </div>
       <div className="right-tech right-to boost-right">
         <div className="left-inner our left-boost no-mar">
           <h3>EFFORTLESS SETUP</h3>
@@ -33,7 +44,7 @@ const boost = () => {
           </p>
         </div>
       </div>
-      <div className="left-tech paie">
+      <div className="left-tech paie desk">
         <p className="heading-tech small">BOOST YOUR KITCHEN'S POTENTIAL</p>
         <h1 className="tech-h">
           PROFIT-DRIVING SOLUTION <br /> FOR YOUR KITCHEN
@@ -49,8 +60,8 @@ const boost = () => {
           <h3>TRAINING PROGRAM</h3>
           <p>
             OUR STATE-OF-THE-ART TRAINING PROGRAM WILL PROVIDE YOU &{" "}
-            <span className="orange">YOUR STAFF</span>A SEAMLESS EXPERIENCE WHEN
-            LEARNING HOW TO COOK OUR RECIPES
+            <span className="orange">YOUR STAFF </span> A SEAMLESS EXPERIENCE
+            WHEN LEARNING HOW TO COOK OUR RECIPES
           </p>
         </div>
         <div className="left-inner left-boost">

@@ -8,7 +8,7 @@ const Tech = () => {
         <p className="heading-tech">WE MAKE IT EASY FOR YOU</p>
         <h1 className="tech-h">
           LET US MANAGE THE
-          <br /> DETAILS
+          <br className="hide-it" /> DETAILS
         </h1>
         <p className="tech-para">
           DON'T LET THE STRESS OF SMALL DETAILS HOLD YOU BACK. LET US HELP YOU
